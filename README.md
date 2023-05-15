@@ -4,6 +4,9 @@
 
 The water ecological parameters jupyter notebook is an open-source code developed in Python that runs on Google Colab to interpret and compare chlorophyll, phycocyanin, and Secchi disk depth time series data obtained from retrieval models based on S2 multispectral data. Two retrieval strategies are implemented in the jupyter notebook: Gaussian Process Regression (GPR) and Parametric Indices (PI). The [GPR models](https://github.com/Grcf2585/RESSBIO/tree/main/Models) were trained and developed within the [ARTMO](https://artmotoolbox.com/) processing framework and then exported to be scalable in the Google Earth Engine cloud computing platform. The PI models were implemented following the methodology proposed by: 
 
++[Chlorophyll](https://www.limnetica.com/es/monitoring-ecological-state-hypertrophic-lake-albufera-val%C3%A8ncia-spain-using-multitemporal-sentinel-2)
++[Phycocyanyn](https://www.sciencedirect.com/science/article/pii/S0048969719342949?via%3Dihub)
++[Secchi Disc Depth](https://www.limnetica.com/es/monitoring-water-transparency-hypertrophic-lake-albufera-val%C3%A8ncia-using-multitemporal-sentinel-2)
 
 The models have been trained with [in-situ data](https://github.com/Grcf2585/RESSBIO/tree/main/In%20situ%20data) collected from several water reservoirs in Spain. The main authors are Gabriel Caballero, and Javier Soria-Perpina as part of the Image Processing Laboratory at the University of Valencia.
 
