@@ -17,8 +17,25 @@ See [Tutorials & Examples](#item1) to get started.
 This repository contains the source codes for inland water ecological parameters retrieval through GEE using Python. This Google Colab application makes use of the [geemap](https://geemap.org/) Python package to interactively map with [Google Earth Engine](https://earthengine.google.com/), which is a cloud computing platform with a multi-petabyte catalogue of satellite imagery and geospatial datasets. The application takes the S2 multispectral data from the [COPERNICUS/S2_SR_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) GEE image collection and applies the GPR and PI water parameter retrieval models to them. Although the study is focused on the Albufera of Valencia lagoon, users can configure any region of interest worldwide. We used the GEE technology to easily access the S2 data cubes and plot dense time series of water parameters data. The time series tool allows applying and comparing the water ecological parameters evolution retrieved by GPR and PI models in eutrophic lagoons.  
 
 ## How to use the Project
-
+This application requires authentication in GEE. You will need a GEE account to proceed. 
+```ruby
+try:
+    ee.Initialize()
+except Exception as e:
+    ee.Authenticate()
+    ee.Initialize()
+```
+A Google Drive is also necessary for saving project outputs. You must mount your Drive by indicating your Google e-mail account.  
+```ruby
+from google.colab import drive
+drive.mount('/content/drive')
+```
 <a name="item1"></a>
 ## Tutorials & Examples
 
+![CHL_time_series](https://github.com/Grcf2585/RESSBIO/assets/92304222/b5266955-da77-46b3-a7b0-b998a7ac1657)
+
+![PC_time_series](https://github.com/Grcf2585/RESSBIO/assets/92304222/482d8a1f-e6a4-4f45-b0f7-cce064a62f3e)
+
+![SDD_time_series](https://github.com/Grcf2585/RESSBIO/assets/92304222/8e29fcac-003b-491f-8c70-7ceb29af8f1e)
 
