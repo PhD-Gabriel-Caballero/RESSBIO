@@ -1,5 +1,7 @@
 # RESSBIO: REmote Sensing Spectroscopy for wetlands BIOdiversity
 
+[![geemap](https://img.shields.io/endpoint?color=blue&label=geemap&logo=Python&logoColor=green&style=flat-square&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)](https://geemap.org/)
+
 ![](https://img.shields.io/badge/Python%20%2B%20GEE-geemap-blue) ![](https://img.shields.io/badge/GPR-ARTMO-green) ![](https://img.shields.io/badge/Optical%20data-Sentinel%202-orange)
 ![Albufera_CHL_map](https://github.com/Grcf2585/RESSBIO/assets/92304222/24c5c9b2-2c02-4d62-989b-4fa905b80920)
 The [water ecological parameters jupyter notebook](https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb) is an open-source code developed in Python that runs on Google Colab to interpret and compare chlorophyll, phycocyanin, and Secchi disk depth time series data obtained from retrieval models based on S2 multispectral data. Two retrieval strategies are implemented in the jupyter notebook: Gaussian Process Regression (GPR) and Parametric Indices (PI). The [GPR models](https://github.com/Grcf2585/RESSBIO/tree/main/Models) were trained and developed within the [ARTMO](https://artmotoolbox.com/) processing framework and then exported to be scalable in the Google Earth Engine cloud computing platform. The PI models were implemented using the following methodologies: 
