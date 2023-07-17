@@ -2,13 +2,13 @@
 <img align="right" width="175" height="85" src="https://github.com/Grcf2585/RESSBIO/assets/92304222/4fd0f098-ea32-457e-ae98-c5b7cfa78070">
 <!<img align="left" width="250" height="125" src="https://github.com/Grcf2585/RESSBIO/assets/92304222/73954397-7fc9-497b-8258-02a086fa425d">
 
-<a href="https://studiolab.sagemaker.aws/import/https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb">
-  <img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab"/>
-</a>
-
 # RESSBIO: REmote Sensing Spectroscopy for wetlands BIOdiversity
 
 [![geemap](https://img.shields.io/badge/Python%20%2B%20GEE-geemap-blue)](https://geemap.org/) [![ARTMO](https://img.shields.io/badge/GPR-ARTMO-green)](https://artmotoolbox.com/) [![S2 Collection](https://img.shields.io/badge/Optical%20data-Sentinel%202-orange)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
+
+<a href="https://studiolab.sagemaker.aws/import/https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb">
+  <img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab"/>
+</a>
 
 ![Albufera_CHL_map](https://github.com/Grcf2585/RESSBIO/assets/92304222/24c5c9b2-2c02-4d62-989b-4fa905b80920)
 The [water ecological parameters jupyter notebook](https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb) is an open-source code developed in Python that runs on Google Colab to interpret and compare chlorophyll, phycocyanin, and Secchi disk depth time series data obtained from retrieval models based on S2 multispectral data. Two retrieval strategies are implemented in the jupyter notebook: Gaussian Process Regression (GPR) and Parametric Indices (PI). The [GPR models](https://github.com/Grcf2585/RESSBIO/tree/main/Models) were trained and developed within the [ARTMO](https://artmotoolbox.com/) processing framework and then exported to be scalable in the Google Earth Engine cloud computing platform. The PI models were implemented using the following methodologies: 
