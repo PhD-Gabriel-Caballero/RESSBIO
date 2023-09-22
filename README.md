@@ -4,9 +4,7 @@
 
 # RESSBIO: REmote Sensing Spectroscopy for wetlands BIOdiversity
 
-[![geemap](https://img.shields.io/badge/Python%20%2B%20GEE-geemap-blue)](https://geemap.org/) [![ARTMO](https://img.shields.io/badge/GPR-ARTMO-green)](https://artmotoolbox.com/) [![S2 Collection](https://img.shields.io/badge/Optical%20data-Sentinel%202-orange)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
-
-<a href="https://studiolab.sagemaker.aws/import/https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb">
+[![geemap](https://img.shields.io/badge/Python%20%2B%20GEE-geemap-blue)](https://geemap.org/) [![ARTMO](https://img.shields.io/badge/GPR-ARTMO-green)](https://artmotoolbox.com/) [![S2 Collection](https://img.shields.io/badge/Optical%20data-Sentinel%202-orange)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) <a href="https://studiolab.sagemaker.aws/import/https://github.com/Grcf2585/RESSBIO/blob/main/S2_water_index.ipynb">
   <img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab"/>
 </a>
 
