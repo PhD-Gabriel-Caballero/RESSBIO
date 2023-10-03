@@ -45,6 +45,6 @@ CHL_model = {
 };
 
 models = {
-  'CHL' : CHL_model
+  'Chl' : CHL_model
 
 };
