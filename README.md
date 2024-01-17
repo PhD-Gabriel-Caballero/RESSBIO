@@ -1,4 +1,7 @@
 
+
+<img align="right" width="200" height="85" src="https://github.com/PhD-Gabriel-Caballero/RESSBIO/assets/92304222/87bed352-43d0-45ef-878d-ca701636fe8d">
+
 <img align="right" width="175" height="85" src="https://github.com/Grcf2585/RESSBIO/assets/92304222/4fd0f098-ea32-457e-ae98-c5b7cfa78070">
 <!<img align="left" width="250" height="125" src="https://github.com/Grcf2585/RESSBIO/assets/92304222/73954397-7fc9-497b-8258-02a086fa425d">
 
