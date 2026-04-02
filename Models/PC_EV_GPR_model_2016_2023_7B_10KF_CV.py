@@ -54,8 +54,8 @@ PC_model = {
   'hyp_sig_unc' : hyp_sig_unc_PC,
   'XDX_pre_calc': XDX_pre_calc_PC,
   'Linv_pre_calc' : Linv_pre_calc_PC,
-  'veg_index': veg_index_PC,
-  'model': model_PC,
+  'veg_index': veg_index,
+  'model': model,
   'scaleFactor' : scaleFactor_PC,
   'units': units_PC
 };
