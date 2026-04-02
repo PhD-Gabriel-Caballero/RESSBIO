@@ -50,28 +50,28 @@ model = 'Chla_GPR_model_2016_2023_7B_10KF_CV' ;
 XTrain_dim = X_train_Chla.length().toList().get(0).getInfo();
 scaleFactor_Chla= 10000;
 
-units_CHL = 'mug L-1'
+units_Chla = 'mug L-1'
 
-CHL_model = {
+Chla_model = {
   
-  'X_train': X_train_CHL,
-  'alpha_coefficients' : alpha_coefficients_CHL,
-  'mx': mx_CHL,
-  'sx': sx_CHL,
-  'mean_model': mean_model_CHL,
-  'hyp_ell': hyp_ell_CHL,
-  'hyp_sign': hyp_sign_CHL,
-  'hyp_sig': hyp_sig_CHL,
+  'X_train': X_train_Chla,
+  'alpha_coefficients' : alpha_coefficients_Chla,
+  'mx': mx_Chla,
+  'sx': sx_Chla,
+  'mean_model': mean_model_Chla,
+  'hyp_ell': hyp_ell_Chla,
+  'hyp_sign': hyp_sign_Chla,
+  'hyp_sig': hyp_sig_Chla,
   'hyp_sig_unc' : hyp_sig_unc_Chla,
-  'XDX_pre_calc': XDX_pre_calc_CHL,
+  'XDX_pre_calc': XDX_pre_calc_Chla,
   'Linv_pre_calc' : Linv_pre_calc_Chla,
   'veg_index': veg_index,
   'model': model,
-  'scaleFactor' : scaleFactor_CHL,
-  'units': units_CHL
+  'scaleFactor' : scaleFactor_Chla,
+  'units': units_Chla
 };
 
 models = {
-  'Chl' : CHL_model
+  'Chl' : Chla_model
 
 };
