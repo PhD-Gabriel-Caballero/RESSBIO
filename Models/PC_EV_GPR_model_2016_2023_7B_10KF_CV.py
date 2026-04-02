@@ -36,7 +36,7 @@ Linv_pre_calc_PC =  ee.Array([[0.00071133019153779,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 veg_index = 'PC' ;
 model = 'PC_EV_filtered_GPR_model_2016_2023_7B_10KF_CV' ;
-XTrain_dim_GREEN = X_train_GREEN.length().toList().get(0).getInfo();
+XTrain_dim = X_train_PC.length().toList().get(0).getInfo();
 scaleFactor_PC= 10000;
 
 units_PC = 'mug L-1'
