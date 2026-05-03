@@ -43,3 +43,30 @@ model = 'PC_GPR_model_2016_2023_7B_10KF_CV' ;
 XTrain_dim_GREEN = X_train_GREEN.length().toList().get(0).getInfo();
 scaleFactor_PC= 10000;
 
+units_PC = 'mug L-1'
+
+PC_model = {
+  
+  'X_train': X_train_PC,
+  'alpha_coefficients' : alpha_coefficients_PC,
+  'mx': mx_PC,
+  'sx': sx_PC,
+  'mean_model': mean_model_PC,
+  'hyp_ell': hyp_ell_PC,
+  'hyp_sign': hyp_sign_PC,
+  'hyp_sig': hyp_sig_PC,
+  'hyp_sig_unc' : hyp_sig_unc_PC,
+  'XDX_pre_calc': XDX_pre_calc_PC,
+  'Linv_pre_calc' : Linv_pre_calc_PC,
+  'veg_index': veg_index,
+  'model': model,
+  'scaleFactor' : scaleFactor_PC,
+  'units': units_PC
+};
+
+models = {
+  'PC' : PC_model
+
+};
+
+
